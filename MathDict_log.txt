@@ -1,0 +1,62 @@
+C:\Users\Maledictum\AppData\Local\Programs\Python\Python37-32\python.exe C:/Users/Maledictum/PycharmProjects/MathExcersises/book.py
+Введите команду:
+Решать задачи: solve
+Вносить задачи: update
+Выход: exit
+update
+Введите класс:
+1 класс: 1
+2 класс: 2
+3 класс: 3
+4 класс: 4
+3
+Ввести задачу?:
+Да: 1
+Нет : exit
+1
+Введите номер задачи:1
+Введите условие 1: Во дворе играли 16 ребят. Из них 9 мальчиков. Сколько девочек играли во дворе?
+Введите ответ 1: 7
+Введите условие 2: Для игры 13 иальчиков и 11 девочек разделились поровну на 3 команды. По сколько оебят в каждой команде?
+Введите ответ 2: 8
+Введите условие 3: В корзине лежали яблоки. Когда туда положили еще 16 килограммов, яблок стало 32 килограмма. Сколько килограммов яблок лежало в корзине сначала?
+Введите ответ 3: 16
+Введите условие 4: За три килограмма алычи заплатили 27 руб. 1 килограмм вишни на 2 рубля дороже, чем 1 килограмм алычи. Сколько стоит 1 килограмм вишни?
+Введите ответ 4: 11
+Введите условие 5: Юля купила в газетном киоске 2 журнала Колобок за 18 рублей. Сколько стоит 1 журнал?
+Введите ответ 5: 9
+Введите условие 6: Одна сторона треугольника 1 дм, две другие по 6 см. Чему равен периметр треугольника?
+Введите ответ 6: 22
+Введите условие 7: Бабушка купила 6 кг картофеля, столько же моркови и 4 кг свеклы. Все овощи она разложила в два пакета. Сколько весит 1 пакет с овощами?
+Введите ответ 7: 8
+Введите условие 8: В трех одинаковых коробках 27 фломастеров. Сколько фломастеров в двух таких коробках?
+Введите ответ 8: 18
+Введите условие 9: Сумма трех чисел 35. Первое слагаемое 9, второе на 6 больше. Чему равно третье слагаемое?
+Введите ответ 9: 11
+Введите условие 10: У Юры было 15 конфет. 8 конфет он отдал сестре. На сколько меньше стало конфет у Юры, чем у сестры?
+Введите ответ 10: 1
+OK
+Ввести задачу?:
+Да: 1
+Нет : exit
+exit
+Traceback (most recent call last):
+  File "C:/Users/Maledictum/PycharmProjects/MathExcersises/book.py", line 92, in <module>
+    new_game = Book()
+  File "C:/Users/Maledictum/PycharmProjects/MathExcersises/book.py", line 9, in __init__
+    self.menu_start()
+  File "C:/Users/Maledictum/PycharmProjects/MathExcersises/book.py", line 40, in menu_start
+    self.update()
+  File "C:/Users/Maledictum/PycharmProjects/MathExcersises/book.py", line 89, in update
+    self.upload_file()
+  File "C:/Users/Maledictum/PycharmProjects/MathExcersises/book.py", line 78, in upload_file
+    json.dump(file, self.exercises)
+  File "C:\Users\Maledictum\AppData\Local\Programs\Python\Python37-32\lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Users\Maledictum\AppData\Local\Programs\Python\Python37-32\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\Maledictum\AppData\Local\Programs\Python\Python37-32\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TextIOWrapper is not JSON serializable
+
+Process finished with exit code 1
